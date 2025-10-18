@@ -1,0 +1,12 @@
+# Ignore compiled files and IDE settings
+*.class
+*.jar
+.vscode/
+.idea/
+target/
+out/
+bin/
+
+# Ignore database credentials
+db_config.properties
+
