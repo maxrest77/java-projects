@@ -1,6 +1,6 @@
-# 1.Smart Student Management / Smart Attendance System
+# Java Projects Collection For Advanced Programming Practice
 
-A simple **Java-based Smart Attendance System** using MySQL for storing attendance records.
+This repository contains multiple Java projects, each with its own functionality, database requirements, and dependencies.
 
 ---
 
@@ -17,28 +17,39 @@ db.user=root
 db.password=YOUR_PASSWORD_HERE
 
 # Compile
-javac -cp ".;mysql-connector-j-9.4.0\mysql-connector-j-9.4.0.jar" SmartAttendanceSystem.java
+javac -cp ".;mysql-connector-j-9.4.0\mysql-connector-j-9.4.0.jar" #Your_file_name.java
 
 # Run
-java -cp ".;mysql-connector-j-9.4.0\mysql-connector-j-9.4.0.jar" SmartAttendanceSystem
+java -cp ".;mysql-connector-j-9.4.0\mysql-connector-j-9.4.0.jar" #ur file name
 
-📝** Features **
+** Projects Included**
+**1. Smart Attendance System**
 
-Create database and tables automatically if they don’t exist
+Track student attendance
 
-Mark attendance for students (name + roll number)
+Automatically creates database and tables if needed
 
-View attendance records with date and status
+Input validation for student name and roll number
 
-Input validation for empty names or roll numbers
+MySQL database integration
 
-Uses MySQL JDBC driver
+2.Library Management System
 
-**Security**
+A simple console-based Library Management System in Java with MySQL integration.
+Supports adding books, viewing books, issuing and returning books.
 
-Do not commit config.properties with passwords
+Features
 
-Add your database credentials locally and make sure .gitignore includes it
+Add Book – Add a new book with title and author.
+
+View Books – List all books with their status (Available/Issued).
+
+Issue Book – Issue a book by ID (prevents double issuance).
+
+Return Book – Return a book by ID.
+
+Exit – Safely exit the program.
+
 
 **Author**
 
