@@ -1,3 +1,11 @@
-# Ignore database config
-config.properties
+# Ignore compiled files and IDE settings
+*.class
+*.jar
+.vscode/
+.idea/
+target/
+out/
+bin/
 
+# Ignore database credentials
+config.properties
