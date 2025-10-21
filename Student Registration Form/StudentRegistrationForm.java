@@ -27,8 +27,8 @@ public class StudentRegistrationForm extends JFrame implements ActionListener {
     // JDBC variables
     private static final String DB_URL = "jdbc:mysql://localhost:3306/";
     private static final String DB_NAME = "studentdb";
-    private static final String DB_USER = "root";        // change if needed
-    private static final String DB_PASSWORD = "Mysql137$";         // your MySQL password
+    private static final String DB_USER = "";        // change if needed
+    private static final String DB_PASSWORD = "";         // your MySQL password
 
     public StudentRegistrationForm() {
         setTitle("Student Registration Form");
