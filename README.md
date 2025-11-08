@@ -1,4 +1,5 @@
 # Java Projects Collection For Advanced Programming Practice
+4 Projects in 1 folder:
 
 This repository contains multiple Java projects, each with its own functionality, database requirements, and dependencies.
 
